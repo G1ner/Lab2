@@ -18,6 +18,6 @@ jobs:
         script:
           mkdir Kopiia
           cd Kopiia
-          touch lad2
+          touch lad2.php
           git clone https://github.com/G1ner/Lab2.git
           echo 'Deployment successful to digital ocean1'
