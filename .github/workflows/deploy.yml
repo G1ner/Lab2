@@ -15,7 +15,7 @@ jobs:
         username: ${{ secrets.SSH_USERNAME }}
         passphrase: ${{ secrets.SERVER_PASSPHRASE}}
         
-        script: |
+        script: 
           mkdir Kopiia
           cd Kopiia
           touch lad2.php
