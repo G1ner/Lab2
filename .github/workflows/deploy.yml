@@ -16,8 +16,8 @@ jobs:
           passphrase: ${{ secrets.SERVER_PASSPHRASE }}
         
           script: 
-            mkdir Kopiia
-            cd Kopiia
+            mkdir kopia
+            cd kopia
             touch Lab.php
             git clone https://github.com/G1ner/Lab2.git
-            echo 'Deployment successful to digitsal ocean1'
+            echo 'Deployment successful to digital ocean1'
