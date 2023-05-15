@@ -15,7 +15,7 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }} # User of the srever you want to ssh into
           passphrase: ${{ secrets.SERVER_PASSPHRASE }}
         
-          script: 
+          script: |
             mkdir Andriu
             cd Andriu
             touch test1.php
